@@ -103,3 +103,10 @@ python manage.py runserver
 
 Project foundation initialized.
 Core architecture setup in progress.
+
+## Current Features
+
+- Dockerized Django setup
+- PostgreSQL integration
+- REST API architecture
+- Task CRUD API module
