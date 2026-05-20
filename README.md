@@ -110,3 +110,36 @@ Core architecture setup in progress.
 - PostgreSQL integration
 - REST API architecture
 - Task CRUD API module
+
+## API Endpoints
+
+### Health Check
+
+GET `/api/v1/health/`
+
+### Tasks
+
+GET `/api/v1/tasks/`
+POST `/api/v1/tasks/`
+PUT `/api/v1/tasks/{id}/`
+DELETE `/api/v1/tasks/{id}/`
+
+---
+
+## Development Setup
+
+### Run with Docker
+
+```bash
+docker compose up --build
+```
+
+## Project Structure
+
+```text
+config/
+tasks/
+docker-compose.yml
+Dockerfile
+requirements.txt
+```
