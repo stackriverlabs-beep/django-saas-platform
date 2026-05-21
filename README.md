@@ -143,3 +143,15 @@ docker-compose.yml
 Dockerfile
 requirements.txt
 ```
+
+## Authentication
+
+JWT authentication implemented using SimpleJWT.
+
+### Login
+
+POST `/api/v1/auth/login/`
+
+### Refresh Token
+
+POST `/api/v1/auth/refresh/`
